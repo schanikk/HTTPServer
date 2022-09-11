@@ -34,8 +34,6 @@ public class ServerListenerThread extends Thread {
 
             }
 
-            // serverSocket.close(); TODO handle close.
-
         } catch (IOException e) {
             LOGGER.info("Problem with setting socket", e);
         } finally {
